@@ -18,4 +18,8 @@ public class DemoApplication extends SpringBootServletInitializer {
 	String sayHello() {
 		return "Hello World from tomcat!";
 	}
+	@RequestMapping(value = "/test-api")
+	String sayHelloAPI() {
+		return "Hello World from tomcat API!";
+	}
 }
