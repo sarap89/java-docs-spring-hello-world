@@ -21,7 +21,7 @@ public class DemoApplication {
 	
 		@GetMapping(value="/test-api")
 	String sayGetHello() {
-		return "Hello World Test API!";
+		return "Hello World Test API 2!";
 	}
 
 }
