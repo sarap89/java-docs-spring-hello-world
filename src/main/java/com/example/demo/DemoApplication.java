@@ -21,7 +21,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 	}
 	@RequestMapping(value = "/test-api")
 	String sayHelloAPI() {
-		return "Hello World from tomcat API!";
+		return "Hello World from tomcat API......changed code!";
 	}
 	@GetMapping(value="/test-api1")
 	String sayGetHello() {
